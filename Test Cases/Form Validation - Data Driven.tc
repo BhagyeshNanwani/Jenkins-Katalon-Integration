@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Form Validation - Data Driven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>155df8a8-31b7-4e03-96b3-08858e7caa05</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d73dbf51-79f1-4515-9647-737fb930a431</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b209411-0630-4036-9175-57c7f1e13d13</id>
+      <masked>false</masked>
+      <name>MiddleName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2859f34-7c4e-49b6-a4e6-d3a18b0732e6</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bc116c91-6349-421a-b231-0510f8451cc1</id>
+      <masked>false</masked>
+      <name>Gender</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b85d276a-3c75-489c-a7dd-cc96653cee5c</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29159676-8ee8-470a-a0f2-750a6f4d8595</id>
+      <masked>false</masked>
+      <name>MobileNumber</name>
+   </variable>
+</TestCaseEntity>

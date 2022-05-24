@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Form Validation - Data Driven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>61bb05b6-7ccf-471a-9f20-c89bbe3d75c3</testSuiteGuid>
+   <testCaseLink>
+      <guid>93e6b410-8242-4413-a876-3eae0b7d5d02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Form Validation - Data Driven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>eee9a324-c715-4ed1-8182-c7815479e5c4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Form Validation Test Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>eee9a324-c715-4ed1-8182-c7815479e5c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FirstName</value>
+         <variableId>2fe2c88f-5b91-4e3d-8fb1-7266f29fb74c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eee9a324-c715-4ed1-8182-c7815479e5c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MiddleName</value>
+         <variableId>f68a52ff-6d28-46c5-b2c0-11be54510d7d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eee9a324-c715-4ed1-8182-c7815479e5c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LastName</value>
+         <variableId>0569d827-4a6e-42a4-a4a6-e655c674d09a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eee9a324-c715-4ed1-8182-c7815479e5c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Gender</value>
+         <variableId>e927971f-b811-4fcd-9469-501a1acfffad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eee9a324-c715-4ed1-8182-c7815479e5c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email </value>
+         <variableId>5f9c91e7-a27d-4ad7-b55f-a10a74892d99</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eee9a324-c715-4ed1-8182-c7815479e5c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MobileNumber</value>
+         <variableId>89c8f3c4-b8b3-429d-b225-65e381d34a0c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
