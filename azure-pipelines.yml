@@ -14,7 +14,7 @@ steps:
   inputs:
     version: '8.2.5'
     executeArgs: '-projectPath=Jenkins And Katalon.prj -testSuitePath="Test Suites/New Test Suite" -browserType="Chrome" -executionProfile="default" -apiKey="d2f36124-eb07-4ab2-b817-1278e5a80031" --config -webui.autoUpdateDrivers=true'
-    #xvfbConfiguration: '-a -n 0 -s "-screen 0 1024x768x24"'
+    xvfbConfiguration: '-a -n 0 -s "-screen 0 1024x768x24"'
 
 
 
