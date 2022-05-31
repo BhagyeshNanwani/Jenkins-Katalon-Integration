@@ -7,11 +7,26 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-20.04'
 
 steps:
 - task: katalonTask@1
-  displayName: 'Execute Katalon Studio project'
   inputs:
     version: '8.2.5'
-    executeArgs: '-noSplash -runMode=console -retry=0 -testSuitePath="Test Suites/End To End Test Suite" -browserType="Chrome" -executionProfile="default" -apiKey="d2f36124-eb07-4ab2-b817-1278e5a80031" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true'
+    executeArgs: '-projectPath=Jenkins And Katalon.prj -testSuitePath="Test Suites/New Test Suite" -browserType="Chrome" -executionProfile="default" -apiKey="d2f36124-eb07-4ab2-b817-1278e5a80031" --config -webui.autoUpdateDrivers=true'
+    xvfbConfiguration: '-a -n 0 -s "-screen 0 1024x768x24"'
+
+
+
+# trigger:
+# - master
+
+# pool:
+#   vmImage: 'ubuntu-latest'
+
+# steps:
+# - task: katalonTask@1
+#   displayName: 'Execute Katalon Studio project'
+#   inputs:
+#     version: '8.2.5'
+#     executeArgs: '-noSplash -runMode=console -retry=0 -testSuitePath="Test Suites/End To End Test Suite" -browserType="Chrome" -executionProfile="default" -apiKey="d2f36124-eb07-4ab2-b817-1278e5a80031" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true'
