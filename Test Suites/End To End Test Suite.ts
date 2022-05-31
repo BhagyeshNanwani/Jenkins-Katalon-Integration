@@ -17,10 +17,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/End To End Test</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>a279e6cd-2f50-4c1c-8dfc-9ca7e0fe4994</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Form Validation Generic</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
