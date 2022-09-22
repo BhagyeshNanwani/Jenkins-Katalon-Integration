@@ -7,8 +7,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'windows-latest'
+pool: Bhagyesh's Agent Pool
 
 steps:
 - task: katalonTask@1
