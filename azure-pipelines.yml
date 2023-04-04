@@ -10,8 +10,16 @@ trigger:
 pool: Bhagyesh's Agent Pool
 
 steps:
-- task: katalonTask@1
-  displayName: 'Execute Katalon Studio project'
+# - task: katalonTask@1
+#   displayName: 'Execute Katalon Studio project'
+#   inputs:
+#     version: '8.2.5'
+#     executeArgs: '-browserType="TestCloud" -testcloudEnvironmentId="87" -testcloudTunnel="false" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/End To End Test Suite" -apiKey="d2f36124-eb07-4ab2-b817-1278e5a80031" --config -webui.autoUpdateDrivers=true'
+
+- task: Command Line Execution
   inputs:
-    version: '8.2.5'
-    executeArgs: '-browserType="TestCloud" -testcloudEnvironmentId="87" -testcloudTunnel="false" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/End To End Test Suite" -apiKey="d2f36124-eb07-4ab2-b817-1278e5a80031" --config -webui.autoUpdateDrivers=true'
+    runOptions: 'commands'
+    commands: |
+      cd /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS 
+      ./katalonc -noSplash -runMode=console -projectPath="/Users/bhagyesh/Katalon Studio/BrowserMob Katalon/BrowserMob Katalon.prj" -retry=0 -testSuitePath="Test Suites/New Test Suite" -browserType="Chrome (headless)" -executionProfile="default" -apiKey="d2f36124-eb07-4ab2-b817-1278e5a80031" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
+    readyTimeout: '20000'
